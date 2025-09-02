@@ -1,0 +1,23 @@
+@import "tailwindcss";
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+@theme {
+  --shadow-navShadow: 0 15px 5px 0 rgb(203 203 203 / 70%);
+  --font-pop: "Poppins", "sans-serif";
+}
+.dark {
+  background-color: #1d2130;
+  transition: 0.7s all ease-in;
+  p,
+  a,
+  h1,
+  h2,
+  h3,
+  h4   {
+    color: #ffffff;
+  }
+}
+.light {
+  background-color: #fff;
+  transition: 0.5s all ease-in;
+}
