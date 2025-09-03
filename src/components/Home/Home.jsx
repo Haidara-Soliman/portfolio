@@ -30,11 +30,11 @@ const Home = () => {
           </div>
         </div>
         <img
-          src="/portfolio/public/img/person.png"
+          src="/portfolio/img/person.png"
           className="w-[385px] h-[444px] z-[2]"
         />
         <img
-          src="/portfolio/public/img/dot.svg"
+          src="/portfolio/img/dot.svg"
           className=" w-[22px] h-[22px] absolute left-[50%] md:top-[98%] top-[99%]"
         />
       </section>

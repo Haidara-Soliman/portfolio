@@ -17,17 +17,17 @@ const Contact = () => {
       <div className="parent md:flex md:flex-row gap-[60px] justify-between flex flex-col">
         <div className="parent md:flex md:flex-col md:justify-between flex flex-col gap-[25px]">
           <ContactContent
-            img={"/portfolio/public/img/phone.svg"}
+            img={"/portfolio/img/phone.svg"}
             title={"Call me or whatsApp"}
             content={"+963938442232"}
           />
           <ContactContent
-            img={"/portfolio/public/img/Email.svg"}
+            img={"/portfolio/img/Email.svg"}
             title={"Email me"}
             content={"haidarasoliman956@gmail.com"}
           />
           <ContactContent
-            img={"/portfolio/public/img/Location.svg"}
+            img={"/portfolio/img/Location.svg"}
             title={"Address"}
             content={"Syria"}
           />

@@ -16,7 +16,7 @@ const ProjectDetails = () => {
       fram: "",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi in eaque ipsa, veritatis quae obcaecati officiis fugiat necessitatibus sit similique laboriosam optio aspernatur, natus ipsum nemo sed cum! Quaerat, et? ",
-      img: "/public/img/EduPress.jpg",
+      img: "/portfolio/img/EduPress.jpg",
       library: "",
     },
     {
@@ -26,7 +26,7 @@ const ProjectDetails = () => {
       langs: "Html-Css",
       fram: "Reactjs,Tailwindcss",
       content: "this is my first project",
-      img: "/public/img/Interviews.jpg",
+      img: "/portfolio/img/Interviews.jpg",
       library: "React-router-dom , react-icons",
     },
   ];
@@ -62,7 +62,6 @@ const ProjectDetails = () => {
       })}
       {/* <Home /> */}
       <Footer />
-      
     </>
   );
 };

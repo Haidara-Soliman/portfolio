@@ -8,13 +8,13 @@ const MyProjects = () => {
       id: "1",
       title: "EduPress",
       langs: "Html-Css",
-      imag: "/portfolio/public/img/EduPress.jpg",
+      imag: "/portfolio/img/EduPress.jpg",
     },
     {
       id: "2",
       title: "Stories and interviews",
       langs: "Reactjs-Tailwind",
-      imag: "/portfolio/public/img/Interviews.jpg",
+      imag: "/portfolio/img/Interviews.jpg",
     },
   ];
   return (

@@ -11,14 +11,20 @@ const Footer = () => {
       </p>
       <div className="flex md:gap-4 gap-2.5">
         <Link to={"https://www.facebook.com/share/15p2aQqUgs/"}>
-          <img src="/portfolio/public/img/facebook.svg" className="w-[25px] h-[25px]" />
+          <img
+            src="/portfolio/img/facebook.svg"
+            className="w-[25px] h-[25px]"
+          />
         </Link>
         <Link
           to={
             "https://www.linkedin.com/in/haidara-soliman-638a50223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           }
         >
-          <img src="/portfolio/public/img/linkedin.svg" className="w-[25px] h-[25px]" />
+          <img
+            src="/portfolio/img/linkedin.svg"
+            className="w-[25px] h-[25px]"
+          />
         </Link>
       </div>
     </footer>

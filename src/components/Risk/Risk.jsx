@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Risk = () => {
   return (
-    <section className="flex md:h-[375px] md:mr-[70px] md:ml-[70px] md:w-[95%] md:mt-[160px] bg-[url('../../../portfolio/public/img/BgExperience.png')]  bg-cover bg-no-repeat relative mt-[200px] mr-[25px] ml-[25px]">
+    <section className="flex md:h-[375px] md:mr-[70px] md:ml-[70px] md:w-[95%] md:mt-[160px] bg-[url('../../../portfolio/img/BgExperience.png')]  bg-cover bg-no-repeat relative mt-[200px] mr-[25px] ml-[25px]">
       <div className="container flex flex-col gap-6 p-[15px] items-center md:flex-row md:gap-8 md:justify-center md:p-[20px]">
         <div className="flex flex-col gap-[15px] md:gap-2.5 h-[135px] md:w-[589px] text-[#FFFFFF]">
           <h1 className="md:text-5xl text-[24px] font-semibold">

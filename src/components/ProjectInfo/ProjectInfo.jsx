@@ -40,7 +40,7 @@ const ProjectInfo = ({ image, title, date, content, langs, fram, library }) => {
         </div>
         <div>
           <img
-            src="/portfolio/public/img/dot.svg"
+            src="/portfolio/img/dot.svg"
             className=" w-[22px] h-[22px] absolute left-[50%] md:top-[98%] top-[163%]"
           />
         </div>

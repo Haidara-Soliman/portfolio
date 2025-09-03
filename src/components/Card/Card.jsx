@@ -16,7 +16,7 @@ const Card = ({ id, title, langs, imag }) => {
         </div>
         <Link onClick={() => goToDetails()}>
           <img
-            src="/portfolio/public/img/ShowDemo.svg"
+            src="/portfolio/img/ShowDemo.svg"
             className="md:w-[35px] md:h-[35px] w-7 h-7"
           />
         </Link>

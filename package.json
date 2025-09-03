@@ -1,6 +1,7 @@
 {
   "name": "graduationproject",
   "private": true,
+  "homepage": "https://github.com/Haidara-Soliman/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
