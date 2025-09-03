@@ -5,7 +5,7 @@ import MyProjects from "../MyProjects/MyProjects";
 const ProjectInfo = ({ image, title, date, content, langs, fram, library }) => {
   return (
     <>
-      <section className="container w-[90%] md:h-[100vh] pt-[70px] md:flex md:flex-row md:justify-between md:mr-[69px] md:ml-[69px] flex flex-col items-center gap-[43px] mr-[25px] ml-[25px] border-dashed border-b-[1px] border-l-[#1D2130]">
+      <section className="container w-[90%] md:h-[100vh] pt-[70px] md:flex md:flex-row md:justify-between md:mr-[69px] md:ml-[69px] flex flex-col items-center gap-[43px] mr-[25px] ml-[25px]">
         <img
           src={image}
           alt="EduPress"
@@ -38,12 +38,7 @@ const ProjectInfo = ({ image, title, date, content, langs, fram, library }) => {
             <Link>Github Repo</Link>
           </button>
         </div>
-        <div>
-          <img
-            src="/portfolio/img/dot.svg"
-            className=" w-[22px] h-[22px] absolute left-[50%] md:top-[98%] top-[176.5%]"
-          />
-        </div>
+        
       </section>
       {/* <MyProjects/> */}
     </>
