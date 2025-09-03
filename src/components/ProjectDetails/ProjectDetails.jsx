@@ -5,6 +5,7 @@ import MyProjects from "../MyProjects/MyProjects";
 import ProjectInfo from "../ProjectInfo/ProjectInfo";
 import { useParams } from "react-router-dom";
 import Home from "../Home/Home";
+import Slider from "../Slider/Slider";
 
 const ProjectDetails = () => {
   const details = [
@@ -60,7 +61,7 @@ const ProjectDetails = () => {
           )
         );
       })}
-      {/* <Home /> */}
+      <Slider />
       <Footer />
     </>
   );

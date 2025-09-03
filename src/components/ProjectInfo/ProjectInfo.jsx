@@ -38,8 +38,8 @@ const ProjectInfo = ({ image, title, date, content, langs, fram, library }) => {
             <Link>Github Repo</Link>
           </button>
         </div>
-        
       </section>
+      {/* <Slider /> */}
       {/* <MyProjects/> */}
     </>
   );
