@@ -22,7 +22,7 @@ const Home = () => {
               I’m Tanvir, a creative Product Designer. I’ve been helping
               businesses to solve their problems with my design for 2 years.
             </p>
-            <button className="w-[155px] h-[50px] border-none text-[15px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer ">
+            <button className="w-[155px] h-[50px] border-none text-[15px] rounded-[8px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer ">
               <a href={Resume} download="resume">
                 Download Cv
               </a>
