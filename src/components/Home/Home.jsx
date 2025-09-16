@@ -1,4 +1,5 @@
-import Resume from "/public/Files/Resume.pdf";
+// import Resume from "/public/Files/Resume.pdf";
+import HaidaraSolimanCv from "/public/Files/HaidaraSolimanCv.pdf";
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
               businesses to solve their problems with my design for 2 years.
             </p>
             <button className="w-[155px] h-[50px] border-none text-[15px] rounded-[8px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer ">
-              <a href={Resume} download="resume">
+              <a href={HaidaraSolimanCv} download="resume">
                 Download Cv
               </a>
             </button>
