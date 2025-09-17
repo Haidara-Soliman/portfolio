@@ -14,12 +14,15 @@ export const NavBar = ({ items, mode, changeMode }) => {
       nav.classList.remove("show");
     }
   };
+
   return (
     <nav
       id="navigat"
-      className=" w-[89%] flex justify-between md:ml-[70px] md:mr-[70px] mr-[25px] ml-[25px] pt-[40px] font-pop fixed top-[0] rounded-[5px] z-[5] "
+      className="shadow-lg/40 w-[90%] flex items-center h-[60px] justify-between md:ml-[70px] md:mr-[70px] mr-[25px] ml-[25px] mt-[20px] font-pop fixed top-[0] rounded-[5px] z-[5] "
     >
-      <h2 className=" text-[24px] text-[#1D2130] font-semibold">Haidara</h2>
+      <h2 className="pl-[5px] text-[20px] md:text-[24px] text-[#1D2130] font-semibold">
+        Haidara
+      </h2>
       <ul className="navmenue w-[100%]  flex flex-col gap-3 absolute top-[-200px] transition-normal duration-[0.7s] transition-all md:top-[0]  items-center justify-center md:relative md:gap-[24px] md:flex md:flex-row">
         {items.map((item, index) => {
           return (
@@ -40,6 +43,7 @@ export const NavBar = ({ items, mode, changeMode }) => {
         })}
       </ul>
       <button
+        className="pr-[5px]"
         onClick={() => {
           changeMode((prev) => (prev == "light" ? "dark" : "light"));
           console.log(mode);

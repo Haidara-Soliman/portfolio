@@ -6,6 +6,9 @@
   --font-pop: "Poppins", "sans-serif";
 }
 .dark {
+  nav {
+    box-shadow: 0 10px 10px #a09e9e ;
+  }
   background-color: #1d2130;
   transition: 0.7s all ease-in;
   p,
@@ -13,11 +16,12 @@
   h1,
   h2,
   h3,
-  h4   {
+  h4 {
     color: #ffffff;
   }
 }
 .light {
   background-color: #fff;
   transition: 0.5s all ease-in;
+  /* box-shadow: 0 20px 25px red; */
 }

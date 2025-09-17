@@ -6,14 +6,14 @@ const Home = () => {
     <>
       <section
         name="Home"
-        className="flex flex-col items-center mr-[25px] ml-[25px] justify-between pt-[100px] gap-[50px] md:flex md:flex-row md:ml-[70px] md:mr-[70px] border-dashed border-b-[1px] border-l-[#1D2130] pb-[100px] relative"
+        className="flex flex-col items-center mr-[25px] ml-[25px] justify-between pt-[110px] gap-[50px] md:flex md:flex-row md:ml-[70px] md:mr-[70px] border-dashed border-b-[1px] border-l-[#1D2130] pb-[100px] relative"
       >
         <div className="max-w-[645px] flex flex-col gap-[40px]">
           <div className="max-w-[562px]">
             <p className="w-[100px]  h-[42px]">
-              <span className="text-[#0C96E2]">Welcome</span>
+              <span className="text-[#0C96E2] text-[20px]">Welcome</span>
             </p>
-            <h1 className="text-[#1D2130] font-[700] text-[55px]">
+            <h1 className="text-[#1D2130] font-[700] text-[26px] md:text-[55px]">
               <span className="font-[300]">HEY!</span> I’m Haidara , Frontend
               Developer
             </h1>
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
         <img
           src="/portfolio/img/personalImage.JPG"
-          className="w-[385px] h-[444px] z-[2]"
+          className="shadow-xl/40 rounded-[9px] w-[385px] h-[444px] z-[2]"
         />
         <img
           src="/portfolio/img/dot.svg"
