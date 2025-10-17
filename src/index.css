@@ -7,7 +7,7 @@
 }
 .dark {
   nav {
-    box-shadow: 0 10px 10px #a09e9e ;
+    box-shadow: 0 10px 10px #a09e9e;
   }
   background-color: #1d2130;
   transition: 0.7s all ease-in;
@@ -24,4 +24,14 @@
   background-color: #fff;
   transition: 0.5s all ease-in;
   /* box-shadow: 0 20px 25px red; */
+}
+.btns:hover {
+  border: 2px solid #0c96e2 !important;
+  background-color: #fff !important;
+  border-radius: 8px;
+  color: #0c96e2 !important;
+  a {
+    background-color: #fff !important;
+    color: #0c96e2 !important;
+  }
 }

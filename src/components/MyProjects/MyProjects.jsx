@@ -33,10 +33,10 @@ const MyProjects = () => {
         <button>
           <Link
             to={"https://github.com"}
-            className="relative flex justify-evenly items-center w-[163px] md:w-[155px] h-[50px] border-none text-[15px] font-medium bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer font-[Manrope] rounded-[8px]"
+            className="btns relative flex justify-evenly items-center w-[163px] md:w-[155px] h-[50px] border-none text-[15px] font-medium bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer font-[Manrope] rounded-[8px]"
           >
             View Github
-            <GoArrowUpRight className="w-[20px] h-5 text-[#eee]" />
+            <GoArrowUpRight className="w-[20px] h-5 " />
           </Link>
         </button>
       </div>

@@ -52,7 +52,7 @@ const Contact = () => {
             placeholder="Message"
             className="border border-solid border-[#BEC0BF] rounded-lg text-base font-normal font-[Inter] text-[#92929D]  p-3  h-[170px] w-[100%]"
           ></textarea>
-          <button className="md:w-[200px] w-[150px] h-[50px] border-none text-[14px] font-[Inter] font-medium bg-[#0c96e2] rounded-[8px] text-[#FFFFFF] cursor-pointer ">
+          <button className="btns md:w-[200px] w-[150px] h-[50px] border-none text-[14px] font-[Inter] font-medium bg-[#0c96e2] rounded-[8px] text-[#FFFFFF] cursor-pointer ">
             Send Message
           </button>
         </form>

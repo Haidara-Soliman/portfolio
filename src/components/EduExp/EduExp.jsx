@@ -22,9 +22,9 @@ const EduExp = () => {
           <FlexEdu />
           <FlexEdu />
         </div>
-        <button className="bg-[#0C96E2] w-[50px] h-[50px] rounded-[12px] absolute right-[2%] md:bottom-[44%] bottom-[25%] ">
+        <button className="btns bg-[#0C96E2] w-[50px] h-[50px] rounded-[12px] absolute right-[2%] md:bottom-[44%] bottom-[25%] ">
           <Link to="Home" duration={500} smooth={true}>
-            <FaArrowUpLong className="cursor-pointer text-[#fff] absolute right-[17px] bottom-[17px] w-[17px] h-[17px]" />
+            <FaArrowUpLong className="cursor-pointer  absolute right-[17px] bottom-[17px] w-[17px] h-[17px]" />
           </Link>
         </button>
         <Risk />

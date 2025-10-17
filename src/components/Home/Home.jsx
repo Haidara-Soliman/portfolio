@@ -1,5 +1,27 @@
 // import Resume from "/public/Files/Resume.pdf";
+import { useEffect, useState } from "react";
 import HaidaraSolimanCv from "/public/Files/HaidaraSolimanCv.pdf";
+
+// Typewriter component
+function Typewriter({ text, speed }) {
+  const [displayedText, setDisplayedText] = useState("");
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      setDisplayedText((prev) => prev + text.charAt(index));
+      index++;
+      if (index >= text.length) {
+        clearInterval(interval);
+      }
+    }, speed);
+
+    // Cleanup on unmount
+    return () => clearInterval(interval);
+  }, [text, speed]);
+
+  return <span>{displayedText}</span>;
+}
 
 const Home = () => {
   return (
@@ -13,9 +35,11 @@ const Home = () => {
             <p className="w-[100px]  h-[42px]">
               <span className="text-[#0C96E2] text-[20px]">Welcome</span>
             </p>
-            <h1 className="text-[#1D2130] font-[700] text-[26px] md:text-[55px]">
-              <span className="font-[300]">HEY!</span> I’m Haidara , Frontend
-              Developer
+            <h1 className="typing text-[#1D2130] font-[700] text-[26px] md:text-[55px]">
+              <span className="font-[300]">HEY ! </span>
+               <Typewriter text="I ’m Haidara , junior Frontend
+              Developer" speed={100} />
+              
             </h1>
           </div>
           <div className="flex flex-col gap-[35px]">
@@ -23,7 +47,7 @@ const Home = () => {
               I’m Tanvir, a creative Product Designer. I’ve been helping
               businesses to solve their problems with my design for 2 years.
             </p>
-            <button className="w-[155px] h-[50px] border-none text-[15px] rounded-[8px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer ">
+            <button className="btns w-[155px] h-[50px] border-none text-[15px] rounded-[8px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer ">
               <a href={HaidaraSolimanCv} download="resume">
                 Download Cv
               </a>
@@ -36,7 +60,7 @@ const Home = () => {
         />
         <img
           src="/portfolio/img/dot.svg"
-          className=" w-[22px] h-[22px] absolute left-[50%] md:top-[98%] top-[99%]"
+          className="w-[22px] h-[22px] absolute left-[50%] md:top-[98%] top-[99%]"
         />
       </section>
     </>

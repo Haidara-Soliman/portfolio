@@ -14,15 +14,15 @@ const Risk = () => {
             refund your deposit, no questions asked
           </p>
         </div>
-        <button className="pt-4">
+        <button>
           <Link
             to={"Contact"}
             smooth={true}
             duration={500}
-            className="relative flex justify-evenly items-center w-[125px] md:w-[155px] h-[50px] border-none text-[15px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer font-[Manrope] rounded-[6px]"
+            className="btns relative flex justify-evenly items-center w-[125px] md:w-[155px] h-[50px] border-none text-[15px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer font-[Manrope] rounded-[6px]"
           >
             Contact
-            <GoArrowRight className="w-[20px] h-5 text-[#eee]" />
+            <GoArrowRight className="w-[20px] h-5 " />
           </Link>
         </button>
       </div>
