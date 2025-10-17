@@ -22,9 +22,11 @@ const AboutMe = () => {
             About Me
           </h1>
           <p className="text-lg font-normal mt-[25px]">
-            Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
-            nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis
-            tempus pharetra
+            I have designed and implemented many websites in different
+            languages, and I have good experience in both back-end and front-end
+            development. I have worked with several languages such as React,
+            HTML5, C#, Laravel, CSS3, Tailwind, and Bootstrap, and I have
+            provided various services on remote programming platforms..
           </p>
         </div>
 

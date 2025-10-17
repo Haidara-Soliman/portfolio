@@ -1,4 +1,6 @@
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -11,20 +13,18 @@ const Footer = () => {
       </p>
       <div className="flex md:gap-4 gap-2.5">
         <Link to={"https://www.facebook.com/share/15p2aQqUgs/"}>
-          <img
-            src="/portfolio/img/facebook.svg"
-            className="w-[25px] h-[25px]"
-          />
+          <FaFacebookF className="icons-style" />
         </Link>
         <Link
           to={
             "https://www.linkedin.com/in/haidara-soliman-638a50223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           }
         >
-          <img
-            src="/portfolio/img/linkedin.svg"
-            className="w-[25px] h-[25px]"
-          />
+          <FaLinkedinIn className="icons-style" />
+        </Link>
+
+        <Link to={"https://github.com/Haidara-Soliman"}>
+          <FaGithub className="icons-style" />
         </Link>
       </div>
     </footer>

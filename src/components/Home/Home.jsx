@@ -35,17 +35,20 @@ const Home = () => {
             <p className="w-[100px]  h-[42px]">
               <span className="text-[#0C96E2] text-[20px]">Welcome</span>
             </p>
-            <h1 className="typing text-[#1D2130] font-[700] text-[26px] md:text-[55px]">
+            <h1 className="typing text-[#1D2130] font-[700] text-[24px] md:text-[55px]">
               <span className="font-[300]">HEY ! </span>
-               <Typewriter text="I ’m Haidara , junior Frontend
-              Developer" speed={100} />
-              
+              <Typewriter
+                text="I ’m Haidara , SoftwareEngineer & junior Frontend
+              Dev"
+                speed={100}
+              />
             </h1>
           </div>
           <div className="flex flex-col gap-[35px]">
             <p className="font-[400] text-base font-[inter]">
-              I’m Tanvir, a creative Product Designer. I’ve been helping
-              businesses to solve their problems with my design for 2 years.
+              I am a trainee in B4F in tartous cohoret I have good experience in
+              web development and can help you choose the right design for your
+              website while providing full technical support.
             </p>
             <button className="btns w-[155px] h-[50px] border-none text-[15px] rounded-[8px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer ">
               <a href={HaidaraSolimanCv} download="resume">

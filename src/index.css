@@ -19,6 +19,9 @@
   h4 {
     color: #ffffff;
   }
+  input,textarea{
+    color: #0c96e2;
+  }
 }
 .light {
   background-color: #fff;
