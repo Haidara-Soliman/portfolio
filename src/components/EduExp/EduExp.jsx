@@ -2,6 +2,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 import FlexEdu from "../FlexEdu/FlexEdu";
 import { Link } from "react-scroll";
 import Risk from "../Risk/Risk";
+import "./EduExp.css";
 
 const EduExp = () => {
   return (
@@ -24,7 +25,7 @@ const EduExp = () => {
         </div>
         <button className="btns bg-[#0C96E2] w-[50px] h-[50px] rounded-[12px] absolute right-[2%] md:bottom-[44%] bottom-[25%] ">
           <Link to="Home" duration={500} smooth={true}>
-            <FaArrowUpLong className="cursor-pointer  absolute right-[17px] bottom-[17px] w-[17px] h-[17px]" />
+            <FaArrowUpLong className="arro cursor-pointer absolute right-[17px] bottom-[17px] w-[17px] h-[17px] txt-center" />
           </Link>
         </button>
         <Risk />

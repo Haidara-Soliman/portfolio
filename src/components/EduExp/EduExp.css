@@ -1,0 +1,9 @@
+.arro {
+  color: #fff;
+}
+.btns:hover {
+  .arro {
+    color: #0c96e2 !important;
+    text-align: center;
+  }
+}

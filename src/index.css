@@ -2,8 +2,11 @@
 /* @custom-variant dark (&:where(.dark, .dark *)); */
 
 @theme {
-  --shadow-navShadow: 0 15px 5px 0 rgb(203 203 203 / 70%);
-  --font-pop: "Poppins", "sans-serif";
+  /* --shadow-navShadow: 0 15px 5px 0 rgb(203 203 203 / 70%); */
+  /* --font-pop: "Poppins", "Inter"; */
+}
+*{
+  font-family: "poppins","Inter";
 }
 .dark {
   nav {
