@@ -34,7 +34,7 @@ const ProjectInfo = ({ image, title, date, content, langs, fram, library }) => {
               Libraries : {library}
             </h3>
           </div>
-          <button className="md:w-[163px] w-[150px] h-[51px] border-none text-[14px] font-[Inter] font-medium bg-[#0c96e2] rounded-[8px] text-[#FFFFFF] cursor-pointer ">
+          <button className="btns md:w-[163px] w-[150px] h-[51px] border-none text-[14px] font-[Inter] font-medium bg-[#0c96e2] rounded-[8px] text-[#FFFFFF] cursor-pointer ">
             <Link>Github Repo</Link>
           </button>
         </div>
