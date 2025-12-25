@@ -1,22 +1,35 @@
 import { GoArrowUpRight } from "react-icons/go";
 import Card from "../Card/Card";
 import { Link, Outlet } from "react-router-dom";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
+const responsive = {
+  desktop: { breakpoint: { max: 3000, min: 1024 }, items: 2 },
+  tablet: { breakpoint: { max: 1024, min: 464 }, items: 1 },
+  mobile: { breakpoint: { max: 464, min: 0 }, items: 1 },
+};
+const projects = [
+  {
+    id: "1",
+    title: "EduPress",
+    langs: "Html-Css",
+    imag: "/portfolio/img/EduPress.jpg",
+  },
+  {
+    id: "1",
+    title: "EduPress",
+    langs: "Html-Css",
+    imag: "/portfolio/img/EduPress.jpg",
+  },
+  {
+    id: "2",
+    title: "Stories and interviews",
+    langs: "Reactjs-Tailwind",
+    imag: "/portfolio/img/Interviews.jpg",
+  },
+];
 const MyProjects = () => {
-  const projects = [
-    {
-      id: "1",
-      title: "EduPress",
-      langs: "Html-Css",
-      imag: "/portfolio/img/EduPress.jpg",
-    },
-    {
-      id: "2",
-      title: "Stories and interviews",
-      langs: "Reactjs-Tailwind",
-      imag: "/portfolio/img/Interviews.jpg",
-    },
-  ];
   return (
     <section
       name="Projects"
@@ -40,18 +53,21 @@ const MyProjects = () => {
           </Link>
         </button>
       </div>
-      <div className="md:mt-[56px] md:flex md:flex-wrap md:flex-row md:gap-[50px] md:justify-center flex flex-col items-center mt-[40px] gap-[25px]">
-        {projects.map((item, id) => {
-          return (
-            <Card
-              key={id}
-              id={item.id}
-              title={item.title}
-              langs={item.langs}
-              imag={item.imag}
-            />
-          );
-        })}
+      {/* <div className="md:mt-[56px] md:flex md:flex-wrap md:flex-row md:gap-[50px] md:justify-center flex flex-col items-center mt-[40px] gap-[25px]"> */}
+      <div className="">
+        <Carousel responsive={responsive}>
+          {projects.map((item, id) => {
+            return (
+              <Card
+                key={id}
+                id={item.id}
+                title={item.title}
+                langs={item.langs}
+                imag={item.imag}
+              />
+            );
+          })}
+        </Carousel>
       </div>
     </section>
   );

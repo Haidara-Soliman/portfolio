@@ -7,7 +7,7 @@ const Card = ({ id, title, langs, imag }) => {
     navigate(`/ProjectDetails.jsx/${id}`);
   };
   return (
-    <div className="md:w-[370px] md:h-[320px] md:flex md:flex-col md:gap-8 rounded-x flex flex-col ">
+    <div className="md:w-[370px] md:h-[320px] md:flex md:flex-col md:gap-8 rounded-x flex flex-col shadow">
       <img src={imag} className="rounded-lg h-[220px] object-contain" />
       <div className="parent md:flex justify-between items-end flex gap-[15px]">
         <div className="demo md:flex md:flex-col gap-[11px]">
