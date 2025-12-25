@@ -1,6 +1,6 @@
 // import Resume from "/public/Files/Resume.pdf";
 import { useEffect, useState } from "react";
-import HaidaraSolimanCv from "/public/Files/HaidaraSolimanCv.pdf";
+import HaidaraSoliman from "/public/Files/Haidara Soliman.pdf";
 
 // Typewriter component
 function Typewriter({ text, speed }) {
@@ -51,7 +51,7 @@ const Home = () => {
               website while providing full technical support.
             </p>
             <button className="btns w-[155px] h-[50px] border-none text-[15px] rounded-[8px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer ">
-              <a href={HaidaraSolimanCv} download="resume">
+              <a href={HaidaraSoliman} download="resume">
                 Download Cv
               </a>
             </button>
