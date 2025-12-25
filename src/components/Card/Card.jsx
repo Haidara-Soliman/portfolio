@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Card = ({ id, title, langs, imag }) => {
   // here we write the array of project details information
+  // here we write the array of project details information
   const navigate = useNavigate();
   const goToDetails = () => {
     navigate(`/ProjectDetails.jsx/${id}`);
