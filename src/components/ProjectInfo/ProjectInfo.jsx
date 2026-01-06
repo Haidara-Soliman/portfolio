@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Slider from "../Slider/Slider";
-import MyProjects from "../MyProjects/MyProjects";
+
+
 
 const ProjectInfo = ({ image, title, date, content, langs, fram, library }) => {
   return (
@@ -39,8 +39,6 @@ const ProjectInfo = ({ image, title, date, content, langs, fram, library }) => {
           </button>
         </div>
       </section>
-      {/* <Slider /> */}
-      {/* <MyProjects/> */}
     </>
   );
 };

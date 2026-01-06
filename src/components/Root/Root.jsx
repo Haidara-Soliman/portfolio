@@ -2,7 +2,6 @@ import { NavBar } from "../NavBar/NavBar";
 import AboutMe from "../AboutMe/AboutMe";
 import Home from "../Home/Home";
 import EduExp from "../EduExp/EduExp";
-import Risk from "../Risk/Risk";
 import MyProjects from "../MyProjects/MyProjects";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
@@ -20,7 +19,6 @@ const Root = () => {
       <Home />
       <AboutMe />
       <EduExp />
-      {/* <Risk /> */}
       <MyProjects />
       <Contact />
       <Footer />

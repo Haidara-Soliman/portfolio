@@ -4,7 +4,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./components/Root/Root";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
-import ProjectInfo from "./components/ProjectInfo/ProjectInfo";
+// import ProjectInfo from "./components/ProjectInfo/ProjectInfo";
 
 const rotes = createBrowserRouter([
   {

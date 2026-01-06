@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="md:mt-[94px] flex flex-row justify-between border-t border-solid border-[#BEC0BF] md:ml-[68px] md:mr-[72px] mr-[25px] mt-[32px] ml-[25px] pt-8 pb-[40px] gap-2">
       <p className="font-[Inter] font-normal text-base text-[#1D2130]">
-        @ 2025. All Rights Reserved
+        @ 2026. All Rights Reserved
       </p>
       <p className="font-[Inter] font-normal text-base text-[#1D2130]">
         Develpoment by Haidara

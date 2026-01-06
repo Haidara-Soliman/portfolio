@@ -11,6 +11,8 @@
 .dark {
   nav {
     box-shadow: 0 10px 10px #a09e9e;
+    background-color: #1d2130;
+    transition: 0.7s all ease-in;
   }
   background-color: #1d2130;
   transition: 0.7s all ease-in;

@@ -38,7 +38,7 @@ const Home = () => {
             <h1 className="typing text-[#1D2130] font-[700] text-[24px] md:text-[55px]">
               <span className="font-[300]">HEY ! </span>
               <Typewriter
-                text="I ’m Haidara , SoftwareEngineer & junior Frontend
+                text="I ’m Haidara , Software Engineer & junior MERN
               Dev"
                 speed={100}
               />
@@ -46,12 +46,11 @@ const Home = () => {
           </div>
           <div className="flex flex-col gap-[35px]">
             <p className="font-[400] text-base font-[inter]">
-              I am a trainee in B4F in tartous cohoret I have good experience in
-              web development and can help you choose the right design for your
-              website while providing full technical support.
+              Creative junior MERN stack developer , motivated and passionate to
+              build modern webpages , to provide services with the best quality
             </p>
             <button className="btns w-[155px] h-[50px] border-none text-[15px] rounded-[8px] font-semibold bg-[#0c96e2] border-[6px] text-[#eee] cursor-pointer ">
-              <a href={HaidaraSoliman} download="resume">
+              <a href={HaidaraSoliman} download="HaidaraSolimanCv">
                 Download Cv
               </a>
             </button>

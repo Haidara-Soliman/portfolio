@@ -22,11 +22,16 @@ const AboutMe = () => {
             About Me
           </h1>
           <p className="text-lg font-normal mt-[25px]">
-            I have designed and implemented many websites in different
+            {/* I have designed and implemented many websites in different
             languages, and I have good experience in both back-end and front-end
-            development. I have worked with several languages such as React,
-            HTML5, C#, Laravel, CSS3, Tailwind, and Bootstrap, and I have
-            provided various services on remote programming platforms..
+            development. I have worked with several languages such as HTML5,
+            CSS3, Tailwind, React , nodejs , mongodb .. etc and I have provided
+            various services on remote programming platforms as a freelancer.. */}
+
+
+            Strategic , motivated software engineer with paractical experience in Software Engineering 
+             Passionate about building scalable applications, learning new technologies, and contributing to team success.
+             All combined with persistence to provide services with the best quality and to grow professionally .
           </p>
         </div>
 
