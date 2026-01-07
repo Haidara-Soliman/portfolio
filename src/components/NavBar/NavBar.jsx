@@ -18,7 +18,7 @@ export const NavBar = ({ items, mode, changeMode }) => {
   return (
     <nav
       id="navigat"
-      className="bg-[white] shadow-lg/40 w-[100%] p-1 flex items-center h-[60px] justify-between mt-[10px] font-pop fixed top-[0] rounded-[5px] z-[5] "
+      className="bg-[white] shadow-lg/40 w-[100%] p-1 flex items-center h-[60px] justify-between mt-[10px] font-pop fixed top-[0] rounded-[5px] z-[5] pl-[20px] pr-[20px] md:pl-[70px] md:pr-[70px]"
     >
       <h2 className="pl-[5px] text-[20px] md:text-[24px] text-[#1D2130] font-semibold">
         Haidara

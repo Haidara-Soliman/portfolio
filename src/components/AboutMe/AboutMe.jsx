@@ -1,5 +1,5 @@
 import SkillLev from "../SkillsLev/SkillLev";
-
+import "./AboutMe.css";
 const AboutMe = () => {
   const w = [
     { lang: "html", val: "100", cost: "100%" },
@@ -12,11 +12,14 @@ const AboutMe = () => {
       name="About me"
       className=" md:flex md:flex-row md:justify-between md:ml-[70px] md:mr-[70px] md:mt-[50px] flex flex-col mt-[50px] ml-[25px] mr-[25px] items-center"
     >
-      <img
-        src="/portfolio/img/Group 1000001803.png"
-        className="md:max-w-[420px]"
-      />
-      <div className="md:flex md:flex-col gap-[40px] justify-between md:max-w-[598px] mt-[50px]">
+      <div className="imgs w-[85%] md:w-[40%] relative h-[80vh]">
+        <img src="/portfolio/img/ReactPh.png" alt="" />
+        <img src="/portfolio/img/CssPh.png" alt="" />
+        <img src="/portfolio/img/FigmaPh.png" alt="" />
+        <img src="/portfolio/img/HtmlPh.png" alt="" />
+        <img src="/portfolio/img//GithubPh.png" alt="" />
+      </div>
+      <div className="md:flex md:flex-col gap-[40px] justify-between md:max-w-[50%] w-[100%] mt-[50px]">
         <div className="md:flex md:flex-col md:gap-[12px] ">
           <h1 className="w-[210px] font-semibold text-[#1D2130] text-[40px]">
             About Me
@@ -27,11 +30,11 @@ const AboutMe = () => {
             development. I have worked with several languages such as HTML5,
             CSS3, Tailwind, React , nodejs , mongodb .. etc and I have provided
             various services on remote programming platforms as a freelancer.. */}
-
-
-            Strategic , motivated software engineer with paractical experience in Software Engineering 
-             Passionate about building scalable applications, learning new technologies, and contributing to team success.
-             All combined with persistence to provide services with the best quality and to grow professionally .
+            Strategic , motivated software engineer with paractical experience
+            in Software Engineering Passionate about building scalable
+            applications, learning new technologies, and contributing to team
+            success. All combined with persistence to provide services with the
+            best quality and to grow professionally .
           </p>
         </div>
 

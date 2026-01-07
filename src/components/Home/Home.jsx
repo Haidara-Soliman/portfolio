@@ -30,7 +30,10 @@ const Home = () => {
         name="Home"
         className="flex flex-col items-center mr-[25px] ml-[25px] justify-between pt-[110px] gap-[50px] md:flex md:flex-row md:ml-[70px] md:mr-[70px] border-dashed border-b-[1px] border-l-[#1D2130] pb-[100px] relative"
       >
-        <div className="max-w-[645px] flex flex-col gap-[40px]">
+        <div
+          className="max-w-[645px] flex flex-col gap-[40px]"
+          onLoad={() => {}}
+        >
           <div className="max-w-[562px]">
             <p className="w-[100px]  h-[42px]">
               <span className="text-[#0C96E2] text-[20px]">Welcome</span>
