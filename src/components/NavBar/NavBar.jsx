@@ -23,7 +23,7 @@ export const NavBar = ({ items, mode, changeMode }) => {
       <h2 className="pl-[5px] text-[20px] md:text-[24px] text-[#1D2130] font-semibold">
         Haidara
       </h2>
-      <ul className="navmenue w-[100%]  flex flex-col gap-3 absolute top-[-200px] transition-normal duration-[0.7s] transition-all md:top-[0]  items-center justify-center md:relative md:gap-[24px] md:flex md:flex-row">
+      <ul className="navmenue md:w-[100%] flex flex-col gap-3 absolute top-[-200px] transition-normal duration-[0.7s] transition-all md:top-[0] items-center justify-center md:relative md:gap-[24px] md:flex md:flex-row">
         {items.map((item, index) => {
           return (
             <li key={index}>
