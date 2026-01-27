@@ -17,12 +17,6 @@ const projects = [
     imag: "/portfolio/img/EduPress.jpg",
   },
   {
-    id: "1",
-    title: "EduPress",
-    langs: "Html-Css",
-    imag: "/portfolio/img/EduPress.jpg",
-  },
-  {
     id: "2",
     title: "Stories and interviews",
     langs: "Reactjs-Tailwind",
@@ -54,7 +48,7 @@ const MyProjects = () => {
         </button>
       </div>
       {/* <div className="md:mt-[56px] md:flex md:flex-wrap md:flex-row md:gap-[50px] md:justify-center flex flex-col items-center mt-[40px] gap-[25px]"> */}
-      <div className="">
+      <div className="mt-[30px]">
         <Carousel responsive={responsive}>
           {projects.map((item, id) => {
             return (

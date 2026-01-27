@@ -9,7 +9,7 @@ const Card = ({ id, title, langs, imag }) => {
   };
   return (
     <div
-      className="md:w-[370px] md:h-[320px] md:flex md:flex-col md:gap-8 rounded-x flex flex-col shadow"
+      className="md:w-[96%] md:h-[320px] md:flex md:flex-col md:gap-8 rounded-x flex flex-col shadow"
       onClick={() => goToDetails()}
     >
       <img src={imag} className="rounded-lg h-[220px] object-contain" />
