@@ -3,9 +3,9 @@ a.link-active {
 }
 .show {
   justify-content: center;
-  width: 98%;
+  width: 100%;
   top: 80px;
-  left: 4px;
+  left: 0px;
   transition: 0.7s all ease-in;
   box-shadow: 1px 5px 10px 1px rgba(22, 96, 206, 0.6);
   border-radius: 6px;
