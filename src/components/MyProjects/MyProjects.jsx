@@ -47,7 +47,6 @@ const MyProjects = () => {
           </Link>
         </button>
       </div>
-      {/* <div className="md:mt-[56px] md:flex md:flex-wrap md:flex-row md:gap-[50px] md:justify-center flex flex-col items-center mt-[40px] gap-[25px]"> */}
       <div className="mt-[30px]">
         <Carousel responsive={responsive}>
           {projects.map((item, id) => {
