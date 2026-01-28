@@ -3,13 +3,14 @@ a.link-active {
 }
 .show {
   justify-content: center;
+  background-color: red;
   width: 100%;
   top: 80px;
   left: 0px;
   transition: 0.7s all ease-in;
   box-shadow: 1px 5px 10px 1px rgba(22, 96, 206, 0.6);
   border-radius: 6px;
-  background-color: #e7e5e5a8;
+  /* background-color: #e7e5e5a8; */
 }
 .iconColor {
   color: #0c96e2;
